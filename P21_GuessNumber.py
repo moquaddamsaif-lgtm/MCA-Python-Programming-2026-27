@@ -4,7 +4,7 @@ for i in range(10):
     guess = int(input("Enter your guess: "))
 
     if guess == num:
-        print("Correct number:", num)
+        print("Correct! the num is:", num)
         break
     elif guess > num:
         print("Too high! Try again")

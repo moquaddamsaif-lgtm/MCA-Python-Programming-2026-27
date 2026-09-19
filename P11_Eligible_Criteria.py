@@ -1,4 +1,4 @@
-Age=int(input("Enter person age"))
+Age=int(input("Enter person age:"))
 monthly_income=int(input("Enter person monthly income: "))
 Credit_Score=int(input("Enter person credit score: "))
 
