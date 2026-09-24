@@ -2,6 +2,10 @@ while True:
     print("1.Prime\n2.Palindrom\n3.Armstrong\n4.Factorial\n5.Fibonacci Series\n6.Exit")
     ch=int(input("Enter your choice: "))
 
+    if ch==6:
+            print("Exit")
+            break
+
     num=int(input("Enter your number: "))
 
     if ch==1:
@@ -26,7 +30,7 @@ while True:
         if rev==temp:
             print(temp,"it is a palindrom number")
         else:
-            print(temp,"Not a plaindrom number")
+            print(temp,"Not a palindrom number")
 
     elif ch==3:
         temp=num
@@ -57,8 +61,6 @@ while True:
             b=temp+b
         print()
 
-    elif ch==6:
-        print("Exit")
-        break
+   
 
 

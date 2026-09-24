@@ -10,3 +10,4 @@ for i in range(n):
     temp = a
     a = b
     b = temp + b
+print("\nSum of terms=",sum)
